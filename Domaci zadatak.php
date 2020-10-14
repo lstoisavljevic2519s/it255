@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-<form action="Domaci.php" method="POST">
+<form action="izlaz.php" method="POST">
 <label for="Ime">Ime</label>
         <input type="text" name="Ime" placeholder="Unesite vase ime" minlength="3"> <br>
         <label for="Prezime">Prezime</label>
