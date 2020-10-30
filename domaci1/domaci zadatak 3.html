@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/prvicss.css">
+</head>
+<body>
+    <style>
+    *{
+        padding:0;
+        margin:0;
+        text-decoration: none;
+        list-style-type: none;
+        box-sizing: border-box;
+    }
+    nav{
+        background: whitesmoke;
+        height: 200px;
+        width: 100%;
+    }
+    nav img
+    {
+        height: 150px;
+        width: 300px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    nav ul
+    {
+        float: right;
+        margin-right: 200px;
+        margin-top:80px;        
+    }
+    nav ul li 
+    {
+        display: inline-block;
+        line-height: 50px;
+        margin: 0 5px;
+    }
+    nav ul li a 
+    {
+        color: royalblue;
+        font-size: 20px;
+        text-transform: uppercase ;
+        padding: 10px 15px;
+        border-radius: 5px ;
+    }
+    .active,a:hover
+    {   
+        background:lightskyblue;
+        transition: all 1s;
+    }
+    </style>
+
+    <!-- HTML -->
+    <nav>
+        <img style="nav img" src="./images/logo.jpg" alt="logo">
+        <ul>
+            <li><a href="Pocetna.html" class="active">Pocetna</a></li>
+            <li><a href="Registracija.html">Registracija</a></li>
+            <li><a href="Modeli">Modeli</a></li>
+            <li><a href="Kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+        <div class="moto">
+            <h2 ><center>Veliki izbor patika na jednom mestu</center></h2>
+        </div>
+        <div class="Sadrzaj">
+            <div class="prvi sadrzaj">
+                <form class="forma" method="POST">
+                    <legend class="prvi">Registracija</legend>
+                    Ime:<input type="text" class="unos"name="ime"placeholder="Unesite vase Ime">
+                    Prezime:<input type="text"class="unos"name="prezime"placeholder="Unesite vase Prezime">
+                    Email:<input type="text"class="unos"name="email"placeholder="Unesite vas email">
+                    <p>Pol:</p>
+                    <hr color=black; width=100%>
+                    <label for="Male">Male</label>
+                    <input type="checkbox" class="unos" name="Male">
+                    <label for="Female">Female</label>
+                    <input type="checkbox" class="unos" name="Female">
+                    Broj telefona: <input type="text" class="unos" name="telefon" placeholder="Unesite vas broj">
+                    <label for="cars">Marka patika:</label>
+                    <select id="Odeca" name="marka">
+                        <option value="Nike">Nike</option>
+                        <option value="Adidas">Adidas</option>
+                        <option value="Puma">Puma</option>
+                        <option value="Reebok">Reebok</option>
+                        <option value="Asics">Asics</option>
+                    </select>
+                    <input type="submit" value="Potvrdi">
+                </form>
+            </div>
+                </select>
+                    </form>
+                    <div class="drugi">
+                        <div class="proizvodi">
+                           <div class="boxsadrzaj">
+                               <div class="slika"> 
+                               <h2 class="naziv">
+                                Nike Air Max 90 Red Velvet 
+                               </h2>
+                               <hr>
+                               <img src="./images/patika.jpg">
+                               </div>
+                               <hr>
+                               <h3 class="cena">250e</h3>
+                               <input class="kolicina" type="number" name="kol" placeholder="kol">
+                               <input class="Korpa" type="submit" value="Dodaj u korpu">
+                           </div>
+                    </div>
+                </div>
+        </div>
+   <footer>
+       <div id="footerKontakt">
+           <p>Ime: Luka</p>
+           <p>Prezime: Stoisavljevic</p>
+           <p>Index: S25/19</p>
+           <p>Adresa: Svetozara Miletica 57</p>
+           <p>E-mail: lukastoisavljevic@gmail.com</p>
+           <p>Telefon: 063 1337 420</p>
+       </div>
+       
+
+   </footer>
+</body>
+</html>
