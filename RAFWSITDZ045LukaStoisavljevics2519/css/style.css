@@ -1,0 +1,137 @@
+        *{
+        text-align: center;
+        padding:0;
+        margin:0;
+        text-decoration: none;
+        list-style-type: none;
+        box-sizing: border-box;
+    }
+    .nav{
+        background: whitesmoke;
+        height: 200px;
+        width: 100%;
+    }
+    .nav ul
+    {
+        float: right;
+        margin-right: 200px;
+        margin-top:80px;        
+    }
+    .nav ul li 
+    {
+        display: inline-block;
+        line-height: 50px;
+        margin: 0 5px;
+    }
+    .nav ul li a 
+    {
+        color: royalblue;
+        font-size: 20px;
+        text-transform: uppercase ;
+        padding: 10px 15px;
+        border-radius: 5px ;
+    }
+    .active,a:hover
+    {   
+        background:lightskyblue;
+        transition: all 1s;
+    }
+    .mejl,.ime,.sadrzaj,.poruka{
+        margin-bottom:5px;
+        width: 30%;
+        background-color: white;
+        color: gray;
+        font-size: 15px;
+        letter-spacing: 2px;
+        padding: 7px 20px;
+    }
+    .button{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 2px;
+        padding: 7px 20px;
+        border: 2px solid white;
+    }
+    
+    .button:hover{
+        background-color: white;
+        color: black;
+        transition: 0.5s;
+    }
+    #Mapa,#forma{
+        text-align-last: center;
+        padding-bottom: 50px;
+    }
+    .hamburger
+{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    padding:10px;  
+    display: none;
+}
+.hamburger .line
+{
+    width: 35px;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 80%;
+    background-color: white;
+    height: 5px;
+    
+}
+    @media only screen and (max-width: 980px){
+        .nav
+    {
+        display: none;
+    }
+    ul li {
+        display: block;
+        width: 40%;
+    }
+    .hamburger
+    {
+        display: block;
+    }
+        h2{
+            color:red;
+        }
+        p{
+            font-size: xx-large;
+        }
+        *{
+            text-align: center;
+        }
+        #forma,#Mapa{
+            float: left;
+        }
+    }
+    @media only screen and (max-width: 480px){
+      h2{
+          color:royalblue;
+      }
+      p{
+          font-size: larger;
+      }
+      *{
+          float: left;
+      }
+      #forma,#Mapa{
+          float: left;
+      }
+    }
+    .moto h2{
+      text-align: center;
+    }
+    .thumbnail{
+        display: block;
+        width: 100%;
+    }
+    
+
+
+    
+
+
+    
